@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box1{
+    margin-top: 30px;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardProducto{
+    width: 200px;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+}
+
+#divProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#formulario{
+    margin-left: 20px;
+}
+
+.box{
+    margin-left: 20px;
+}
+
+#finalizar{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.total{
+    margin-left: 20px;
+}

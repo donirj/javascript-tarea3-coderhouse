@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Loan calculator</title>
+</head>
+<body>
+
+    <div class="box1">
+        <h1 id="title">Tienda de tarjetas de crédito</h1>
+    </div>
+
+    <form id="formulario" action="">
+        <br><p>Primero ingresa tus datos por favor</p>
+        Nombre 
+        <br><input type="text" name="clientName" id="name"><br><br>
+        Apellido
+        <br><input type="text" name="clientLastname" id="lastname"><br><br>
+        <input type="submit" value="ingresar">
+    </form>
+
+    <br><div class="box" id="errorMessage"></div>
+    <br><div class="box" id="welcomeMessage"></div>
+
+
+    <div class="result"></div><br>
+
+    <div class="creditResult"></div>
+
+    <div class="row" id="divProductos"></div>
+    <button id="finalizar" class="btn btn-success">FINALIZAR COMPRA</button>
+    <div id="divCarrito" class="">
+        <table class="table">
+            <thead id="thead"></thead>
+            <tbody id="tbody"></tbody>
+        </table>
+        <p id="total"></p>
+    </div>
+    <div id="parrafoTotal" class="total"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
